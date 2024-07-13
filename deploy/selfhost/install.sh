@@ -57,7 +57,7 @@ function buildLocalImage() {
 
     if [ "$DO_BUILD" == "1" ] || [ "$DO_BUILD" == "" ];
     then
-        REPO=https://github.com/makeplane/plane.git
+        REPO=https://github.com/anuragsharma1111994/plane
         CURR_DIR=$PWD
         PLANE_TEMP_CODE_DIR=$(mktemp -d)
         git clone $REPO $PLANE_TEMP_CODE_DIR  --branch $BRANCH --single-branch
