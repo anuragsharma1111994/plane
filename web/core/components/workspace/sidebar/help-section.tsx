@@ -74,7 +74,7 @@ export const SidebarHelpSection: React.FC<WorkspaceHelpSectionProps> = observer(
             hidden: isCollapsed,
           })}
         >
-          <WorkspaceEditionBadge />
+          {/* <WorkspaceEditionBadge /> */}
         </div>
         <div className={`flex items-center gap-1 ${isCollapsed ? "flex-col justify-center" : "w-2/5 justify-evenly"}`}>
           <Tooltip tooltipContent="Shortcuts" isMobile={isMobile}>
